@@ -24,15 +24,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOCIAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZN-Fr-ZMh">
-                                <rect key="frame" x="143" y="294.5" width="89" height="29"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by: Trevor Anderson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLo-66-hcd">
-                                <rect key="frame" x="100.5" y="331.5" width="174" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="SOCIAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZN-Fr-ZMh">
+                                <rect key="frame" x="99" y="255" width="158" height="40"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="42"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -64,6 +58,18 @@
                                     <segue destination="wie-nZ-YWG" kind="show" animates="NO" id="Xve-p8-Ir4"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eb9-as-5et">
+                                <rect key="frame" x="135" y="62.5" width="106.5" height="200.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="168"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="&quot;an iOS application&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLo-66-hcd">
+                                <rect key="frame" x="99" y="314" width="176" height="24"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -71,9 +77,11 @@
                             <constraint firstItem="cG9-g3-oLn" firstAttribute="top" secondItem="DF3-Ub-r8A" secondAttribute="bottom" constant="16" id="5ae-ls-lxm"/>
                             <constraint firstItem="eLo-66-hcd" firstAttribute="centerY" secondItem="JHb-Nv-cYs" secondAttribute="centerY" id="7r9-dQ-1ar"/>
                             <constraint firstItem="eLo-66-hcd" firstAttribute="top" secondItem="cZN-Fr-ZMh" secondAttribute="bottom" constant="8" id="Bku-l8-16T"/>
+                            <constraint firstItem="Eb9-as-5et" firstAttribute="centerX" secondItem="M2P-0A-WHL" secondAttribute="centerX" id="N4n-nU-rgt"/>
                             <constraint firstAttribute="trailing" secondItem="DF3-Ub-r8A" secondAttribute="trailing" constant="24" id="NDT-Jw-ku1"/>
                             <constraint firstAttribute="bottomMargin" secondItem="cG9-g3-oLn" secondAttribute="bottom" constant="24" id="VL8-tL-Tu4"/>
                             <constraint firstItem="cG9-g3-oLn" firstAttribute="leading" secondItem="M2P-0A-WHL" secondAttribute="leading" constant="24" id="WR8-k2-WAV"/>
+                            <constraint firstItem="eLo-66-hcd" firstAttribute="top" secondItem="Eb9-as-5et" secondAttribute="bottom" constant="68.5" id="fM8-TK-uC0"/>
                             <constraint firstAttribute="trailing" secondItem="cG9-g3-oLn" secondAttribute="trailing" constant="24" id="fbS-mf-iJH"/>
                             <constraint firstItem="eLo-66-hcd" firstAttribute="centerX" secondItem="M2P-0A-WHL" secondAttribute="centerX" id="iRA-fQ-Apa"/>
                             <constraint firstItem="cZN-Fr-ZMh" firstAttribute="centerX" secondItem="M2P-0A-WHL" secondAttribute="centerX" id="q39-rm-JGU"/>
@@ -90,7 +98,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ctX-aG-fB5" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2734" y="125"/>
+            <point key="canvasLocation" x="2733.5999999999999" y="124.58770614692655"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="k2v-ny-gh5">

@@ -2,8 +2,8 @@
 //  Post.swift
 //  FirebaseApp
 //
-//  Created by Robert Canton on 2018-02-08.
-//  Copyright © 2018 Robert Canton. All rights reserved.
+//  Created by Trevor Anderson on 9/13/18.
+//  Copyright © 2018 Trevor Anderson. All rights reserved.
 //
 
 import Foundation
