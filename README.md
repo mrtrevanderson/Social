@@ -5,20 +5,22 @@ Social Media Application
 
 ### Prerequisites
 ---------------------------
-
 Before you begin, you need a few things set up in your environment:
-Xcode 9.2 or later
-An Xcode project targeting iOS 8 or above
-Swift projects must use Swift 3.0 or later
-The bundle identifier of your app
-CocoaPods 1.4.0 or later
+- Xcode 9.2 or later
+- An Xcode project targeting iOS 8 or above
+- Swift projects must use Swift 3.0 or later
+- The bundle identifier of your app
+- CocoaPods 1.4.0 or later
+
 For Cloud Messaging:
-A physical iOS device
-An Apple Push Notification Authentication Key for your Apple Developer account
-In Xcode, enable Push Notifications in App > Capabilities
+- A physical iOS device
+- An Apple Push Notification Authentication Key for your Apple Developer account
+- In Xcode, enable Push Notifications in App > Capabilities
 
 
-Create Xcode Project
+### Create Xcode Project
+--------------------------
+
 
 Use Xcode 9.2 or later
 
