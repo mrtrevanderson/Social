@@ -81,9 +81,9 @@ Adding the SDK
 ### Running the App
 ---------------------------------
 
-When you run the app it should open the newest version of Simulator
-We had: Version 10.0 (SimulatorApp-851.2 CoreSimulator-518.19)
-The Simulator will open your app and you will be prompted with the home screen 
+- When you run the app it should open the newest version of Simulator
+- We had: Version 10.0 (SimulatorApp-851.2 CoreSimulator-518.19)
+- The Simulator will open your app and you will be prompted with the home screen 
 
 
 
