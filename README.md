@@ -1,5 +1,5 @@
 # Social
-Social Media Application
+iOS Social Media Application
 
 
 
